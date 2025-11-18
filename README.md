@@ -8,13 +8,13 @@ It is created only for **learning purposes** — to understand how multiple serv
 ## 📦 What This Project Includes
 
 ### **🔹 User Service (Port 5001)**
-Handles simple user-related operations.
+It returns user details
 
 ### **🔹 Product Service (Port 5002)**
-Manages product information and responses.
+It returns product details
 
 ### **🔹 Order Service (Port 5003)**
-Interacts with user-service and product-service to simulate order creation.
+It returns order details by communicating with user service and product service
 
 Each service:
 - Has its own FastAPI application  
